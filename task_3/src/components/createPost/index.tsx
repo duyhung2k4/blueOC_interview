@@ -18,7 +18,7 @@ const CreatePost: React.FC<CreatePostProps> = (props) => {
             body: "",
         },
         validate: {
-            userId: (value) => value === 0 ? "id must be greater than 0" : null,
+            userId: (value) => value <= 0 ? "id must be greater than 0" : null,
             title: (value) => value.length < 5 ? "title must have at least 5 characters" : null,
             body: (value) => value.length < 10 ? "title must have at least 10 characters" : null,
         }
