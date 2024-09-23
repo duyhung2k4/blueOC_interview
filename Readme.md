@@ -7,3 +7,5 @@
     cd task_1 && npx jest npx jest index.test.js && cd ..
 # run test task 2
     cd task_2 && npx jest npx jest index.test.js && cd ..
+# web task 3
+    https://blue-oc-interview.vercel.app/
