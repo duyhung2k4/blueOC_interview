@@ -1,0 +1,7 @@
+.box {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #000000;
+    cursor: pointer;
+    width: 100%;
+}

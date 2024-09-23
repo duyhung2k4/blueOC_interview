@@ -4,7 +4,7 @@ import type { AxiosRequestConfig, AxiosError } from 'axios'
 
 export const axiosBaseQuery =
     (
-        { baseUrl }: { baseUrl: string } = { baseUrl: import.meta.env.VITE_ART_PIXEL_BE || "" }
+        { baseUrl }: { baseUrl: string } = { baseUrl: import.meta.env.VITE_API || "" }
     ): BaseQueryFn<
         {
             url: string
